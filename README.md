@@ -1,2 +1,2 @@
-# LLMCodeEval
-Datasets and code for the paper LLMCodeEval.
+# CodeScope
+Datasets and code for the paper CodeScope.
