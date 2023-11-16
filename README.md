@@ -4,7 +4,7 @@
     <a href="https://haitianliu22.github.io/code-scope-benchmark/"><img src="./images/leaderboard.png">Leaderboard</a> &nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="https://arxiv.org/pdf/2311.08588.pdf">📄 Paper</a> &nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="https://huggingface.co/datasets/WeixiangYan/CodeTransOcean">🤗 Access from HuggingFace datasets</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="https://drive.google.com/file/d/1xw6Edqf_nknKoei_LC49n4EtvNQezKGe/view?usp=sharing"><img src="./images/Google_Drive_Logo_16px.png"> Access from Google Drive datasets</a>
+    <a href="https://drive.google.com/file/d/1xw6Edqf_nknKoei_LC49n4EtvNQezKGe/view?usp=sharing"><img src="./images/google_drive.png"> Access from Google Drive datasets</a>
 </div>
 
 <br>
