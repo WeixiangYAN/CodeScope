@@ -1,7 +1,13 @@
 # [CodeScope: An Execution-based Multilingual Multitask Multidimensional Benchmark for Evaluating LLMs on Code Understanding and Generation](https://haitianliu22.github.io/code-scope-benchmark/)
 
+<div align="center">
+    <a href="https://haitianliu22.github.io/code-scope-benchmark/"><img src="./images/leaderboard.png">Leaderboard</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="https://arxiv.org/pdf/2311.08588.pdf">📄 Paper</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="https://huggingface.co/datasets/WeixiangYan/CodeTransOcean">🤗 Access from HuggingFace datasets</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="https://drive.google.com/file/d/1xw6Edqf_nknKoei_LC49n4EtvNQezKGe/view?usp=sharing"><img src="./images/Google_Drive_Logo_16px.png"> Access from Google Drive datasets</a>
+</div>
 
-<img src="./images/leaderboard1.png">[Leaderboard](https://haitianliu22.github.io/code-scope-benchmark/) | 📄[Paper](https://arxiv.org/pdf/2311.08588.pdf) | 🤗[Access from HuggingFace datasets] | <img src="./images/Google_Drive_Logo_16px.png">[Access from Google Drive datasets]
+<br>
 
 **CodeScope**, an execution-based, multilingual, multi-task, multi-dimensional evaluation benchmark for comprehensively gauging LLM capabilities on coding tasks. CodeScope covers **43 programming languages** and **8 coding tasks**. It evaluates the coding performance of LLMs from three dimensions (perspectives): **difficulty**, **efficiency**, and **length**.
 
@@ -13,16 +19,13 @@
 
 
 ## Datasets
+🚧 Working in progress, coming soon...
 <!--
 🤗[Hugging Face](https://huggingface.co/datasets/WeixiangYan/CodeTransOcean) or  <img src="./images/Google_Drive_Logo_16px.png">[Google Drive](https://drive.google.com/file/d/1xw6Edqf_nknKoei_LC49n4EtvNQezKGe/view?usp=sharing)
 -->
 
 ## Code
-<!--
-The MultilingualTrans, NicheTrans, and DLTrans datasets were experimented with on CodeT5+, and the code is in the [CodeT5+](https://github.com/WeixiangYAN/CodeTransOcean/tree/main/CodeT5%2B) file.
-
-The LLMTrans dataset was experimented with on GPT-3.5, and the code is in the [ChatGPT](https://github.com/WeixiangYAN/CodeTransOcean/tree/main/ChatGPT) file.
--->
+🚧 Working in progress, coming soon...
 
 
 ## Citation
