@@ -1,4 +1,4 @@
-# [CodeScope: An Execution-based Multilingual Multitask Multidimensional Benchmark for Evaluating LLMs on Code Understanding and Generation](https://arxiv.org/abs/2311.08588)
+# [CodeScope: An Execution-based Multilingual Multitask Multidimensional Benchmark for Evaluating LLMs on Code Understanding and Generation](https://haitianliu22.github.io/code-scope-benchmark/)
 
 
 <img src="./images/leaderboard1.png">[Leaderboard](https://haitianliu22.github.io/code-scope-benchmark/) | 📄[Paper](https://arxiv.org/pdf/2311.08588.pdf) | 🤗[Access from HuggingFace datasets] | <img src="./images/Google_Drive_Logo_16px.png">[Access from Google Drive datasets]
