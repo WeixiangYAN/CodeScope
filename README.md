@@ -19,7 +19,7 @@
 
 
 ## Datasets
-🤗[Hugging Face](https://huggingface.co/datasets/WeixiangYan/CodeScope) or  <img src="./images/Google_Drive_Logo_16px.png">[Google Drive](https://drive.google.com/file/d/182zkCW_EsY8LRmf1GrmfkMG78OVZM8lz/view?usp=sharing) or [data](https://github.com/WeixiangYAN/CodeScope/tree/main/data)
+🤗[Hugging Face](https://huggingface.co/datasets/WeixiangYan/CodeScope) or  <img src="./images/google_drive.png">[Google Drive](https://drive.google.com/file/d/182zkCW_EsY8LRmf1GrmfkMG78OVZM8lz/view?usp=sharing) or [data](https://github.com/WeixiangYAN/CodeScope/tree/main/data)
 
 
 ## Code
