@@ -3,8 +3,8 @@
 <div align="center">
     <a href="https://haitianliu22.github.io/code-scope-benchmark/"><img src="./images/leaderboard.png">Leaderboard</a> &nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="https://arxiv.org/pdf/2311.08588.pdf">📄 Paper</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="https://github.com/WeixiangYAN/CodeScope">🤗 Access from HuggingFace datasets</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="https://github.com/WeixiangYAN/CodeScope"><img src="./images/google_drive.png"> Access from Google Drive datasets</a>
+    <a href="https://huggingface.co/datasets/WeixiangYan/CodeScope">🤗 Access from HuggingFace datasets</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="https://drive.google.com/file/d/182zkCW_EsY8LRmf1GrmfkMG78OVZM8lz/view?usp=sharing"><img src="./images/google_drive.png"> Access from Google Drive datasets</a>
 </div>
 
 <br>
