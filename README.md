@@ -19,10 +19,8 @@
 
 
 ## Datasets
-🚧 Working in progress, coming soon...
-<!--
-🤗[Hugging Face](https://huggingface.co/datasets/WeixiangYan/CodeTransOcean) or  <img src="./images/Google_Drive_Logo_16px.png">[Google Drive](https://drive.google.com/file/d/1xw6Edqf_nknKoei_LC49n4EtvNQezKGe/view?usp=sharing)
--->
+🤗[Hugging Face](https://huggingface.co/datasets/WeixiangYan/CodeScope) or  <img src="./images/Google_Drive_Logo_16px.png">[Google Drive](https://drive.google.com/file/d/182zkCW_EsY8LRmf1GrmfkMG78OVZM8lz/view?usp=sharing) or [data](https://github.com/WeixiangYAN/CodeScope/tree/main/data)
+
 
 ## Code
 🚧 Working in progress, coming soon...
