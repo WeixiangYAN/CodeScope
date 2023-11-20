@@ -1,6 +1,5 @@
-<div align="center">
-  <a href="https://haitianliu22.github.io/code-scope-benchmark/"><img src="./images/banners.png">
-</div>
+# [CodeScope: An Execution-based Multilingual Multitask Multidimensional Benchmark for Evaluating LLMs on Code Understanding and Generation](https://haitianliu22.github.io/code-scope-benchmark/)
+
 
 
 <div align="center">
