@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://haitianliu22.github.io/code-scope-benchmark/"><img src="./images/banner.png">
+  <a href="https://haitianliu22.github.io/code-scope-benchmark/"><img src="./images/banners.png">
 </div>
 
 
