@@ -1,4 +1,7 @@
-# [CodeScope: An Execution-based Multilingual Multitask Multidimensional Benchmark for Evaluating LLMs on Code Understanding and Generation](https://haitianliu22.github.io/code-scope-benchmark/)
+<div align="center">
+  <a href="https://haitianliu22.github.io/code-scope-benchmark/"><img src="./images/banner.png">
+</div>
+
 
 <div align="center">
     <a href="https://haitianliu22.github.io/code-scope-benchmark/"><img src="./images/leaderboard.png">Leaderboard</a> &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -11,11 +14,8 @@
 
 **CodeScope**, an execution-based, multilingual, multi-task, multi-dimensional evaluation benchmark for comprehensively gauging LLM capabilities on coding tasks. CodeScope covers **43 programming languages** and **8 coding tasks**. It evaluates the coding performance of LLMs from three dimensions (perspectives): **difficulty**, **efficiency**, and **length**.
 
-<!--
-<div align="center">
-  <img src="./images/codetransocean.png">
-</div>
--->
+
+
 
 
 ## Datasets
