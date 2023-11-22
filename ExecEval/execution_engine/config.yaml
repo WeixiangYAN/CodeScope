@@ -1,0 +1,491 @@
+code_store:
+    source_code_dir: /code_store/
+supported_languages:
+    GNU C:
+        compile_cmd: gcc
+        compile_flags: -fno-optimize-sibling-calls -w -fno-strict-aliasing -DONLINE_JUDGE -include limits.h -fno-asm -s -O2 -DONLINE_JUDGE -include math.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.c
+
+    GNU C11:
+        compile_cmd: gcc
+        compile_flags: -std=c11 -fno-optimize-sibling-calls -w -fno-strict-aliasing -DONLINE_JUDGE -include limits.h -fno-asm -s -O2 -DONLINE_JUDGE -include math.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.c
+
+    GNU C++:
+        compile_cmd: g++
+        compile_flags: -s -x c++ -O2 -w -DONLINE_JUDGE -include math.h -include limits.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    GNU C++0x:
+        compile_cmd: g++
+        compile_flags: -std=c++0x -s -x c++ -O2 -w -DONLINE_JUDGE -include math.h -include limits.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    GNU C++11:
+        compile_cmd: g++
+        compile_flags: -std=c++11 -s -x c++ -O2 -w -DONLINE_JUDGE -include math.h -include limits.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    GNU C++14:
+        compile_cmd: g++
+        compile_flags: -std=c++14 -s -x c++ -O2 -w -DONLINE_JUDGE -include math.h -include limits.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    GNU C++17:
+        compile_cmd: g++
+        compile_flags: -std=c++17 -s -x c++ -O2 -w -DONLINE_JUDGE -include limits.h -include math.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    GNU C++17 (64):
+        compile_cmd: g++
+        compile_flags: -std=c++17 -s -x c++ -O2 -w -DONLINE_JUDGE -include limits.h -include math.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    GNU C++20 (64):
+        compile_cmd: g++
+        compile_flags: -std=c++20 -s -x c++ -O2 -w -DONLINE_JUDGE -include limits.h -include math.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    GNU C++20:
+        compile_cmd: g++
+        compile_flags: -std=c++20 -s -x c++ -O2 -w -DONLINE_JUDGE -include limits.h -include math.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    GNU C++17 Diagnostics:
+        compile_cmd: g++
+        compile_flags: -std=c++17 -s -x c++ -O2 -w -DONLINE_JUDGE -pedantic -include limits.h -include math.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    Clang++17 Diagnostics:
+        compile_cmd: clang++-14
+        compile_flags: -std=c++17 -s -x c++ -O2 -w -pedantic -DONLINE_JUDGE -include limits.h -include math.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    Clang++17:
+        compile_cmd: clang++-14
+        compile_flags: -std=c++17 -s -x c++ -O2 -w -DONLINE_JUDGE -include limits.h -include math.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    Clang++20 Diagnostics:
+        compile_cmd: clang++-14
+        compile_flags: -std=c++20 -s -x c++ -O2 -w -pedantic -DONLINE_JUDGE -include limits.h -include math.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    Clang++20:
+        compile_cmd: clang++-14
+        compile_flags: -std=c++20 -s -x c++ -O2 -w -DONLINE_JUDGE -include limits.h -include math.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    Clang++14:
+        compile_cmd: clang++-14
+        compile_flags: -std=c++14 -s -x c++ -O2 -w -DONLINE_JUDGE -include limits.h -include math.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    Clang++11:
+        compile_cmd: clang++-14
+        compile_flags: -std=c++11 -s -x c++ -O2 -w -DONLINE_JUDGE -include limits.h -include math.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    MS C++:
+        compile_cmd: g++
+        compile_flags: -s -x c++ -O2 -w -DONLINE_JUDGE -include math.h -include limits.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    MS C++ 2017:
+        compile_cmd: g++
+        compile_flags: -s -x c++ -O2 -w -DONLINE_JUDGE -include math.h -include limits.h -static -lm
+        sanitize_fn_name: sanitize_c_cpp
+        compile_fn_name: generic_c_cpp_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.cpp
+
+    MS C#:
+        compile_cmd: csc
+        compile_flags: -o -nologo
+        execute_cmd: mono
+        compile_fn_name: generic_cs_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.cs
+        timelimit_factor: 3
+
+    C# 10:
+        compile_cmd: csc
+        compile_flags: -o -nologo
+        execute_cmd: mono
+        compile_fn_name: generic_cs_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.cs
+        timelimit_factor: 3
+
+    C# 8:
+        compile_cmd: csc
+        compile_flags: -o -nologo
+        execute_cmd: mono
+        compile_fn_name: generic_cs_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.cs
+        timelimit_factor: 3
+
+    Mono C#:
+        compile_cmd: csc
+        compile_flags: -o -nologo
+        execute_cmd: mono
+        compile_fn_name: generic_cs_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.cs
+        timelimit_factor: 3
+
+    .NET Core C#:
+        compile_cmd: csc
+        compile_flags: -o -nologo
+        execute_cmd: mono
+        compile_fn_name: generic_cs_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.cs
+        timelimit_factor: 3
+
+    PyPy 2:
+        compile_cmd: pypy2
+        compile_flags: -W ignore -m py_compile
+        execute_cmd: pypy2
+        execute_flags: -W ignore -OO -s -S
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.py
+        timelimit_factor: 2
+
+    Python 2:
+        compile_cmd: python2
+        compile_flags: -W ignore -m py_compile
+        execute_cmd: python2
+        execute_flags: -W ignore -OO -s -S
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.py
+        timelimit_factor: 3
+
+    PyPy 3:
+        compile_cmd: pypy3
+        compile_flags: -W ignore -m py_compile
+        execute_cmd: pypy3
+        execute_flags: -W ignore -OO -s -S
+        compile_fn_name: generic_interpreted_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.py
+        timelimit_factor: 2
+
+    PyPy 3-64:
+        compile_cmd: pypy3
+        compile_flags: -W ignore -m py_compile
+        execute_cmd: pypy3
+        execute_flags: -W ignore -OO -s -S
+        compile_fn_name: generic_interpreted_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.py
+        timelimit_factor: 2
+
+    Python 3:
+        compile_cmd: python3
+        compile_flags: -W ignore -m py_compile
+        execute_cmd: python3
+        execute_flags: -W ignore -OO -s -S
+        compile_fn_name: generic_interpreted_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.py
+        timelimit_factor: 3
+
+    Python 3 + libs:
+        compile_cmd: python3
+        compile_flags: -W ignore -m py_compile
+        execute_cmd: python3
+        execute_flags: -W ignore -OO -s -S
+        compile_fn_name: generic_interpreted_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.py
+        timelimit_factor: 3
+
+    JavaScript:
+        compile_cmd: node
+        compile_flags: --check
+        execute_cmd: node
+        compile_fn_name: generic_interpreted_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.js
+        timelimit_factor: 3
+
+    Node js:
+        compile_cmd: node
+        compile_flags: --check
+        execute_cmd: node
+        compile_fn_name: generic_interpreted_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.js
+        timelimit_factor: 3
+
+    Node.js:
+        compile_cmd: node
+        compile_flags: --check
+        execute_cmd: node
+        compile_fn_name: generic_interpreted_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.js
+        timelimit_factor: 3
+
+    Rust:
+        compile_cmd: rustc
+        compile_flags: -O
+        compile_fn_name: generic_rust_go_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.rs
+
+    Rust 2021:
+        compile_cmd: rustc
+        compile_flags: --edition 2021 -O
+        compile_fn_name: generic_rust_go_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.rs
+
+    Rust 2018:
+        compile_cmd: rustc
+        compile_flags: --edition 2018 -O
+        compile_fn_name: generic_rust_go_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.rs
+
+    Rust 2015:
+        compile_cmd: rustc
+        compile_flags: --edition 2015 -O
+        compile_fn_name: generic_rust_go_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.rs
+
+    Java 6:
+        compile_cmd: javac
+        compile_flags: -target 1.6 -nowarn -cp ".;*"
+        execute_cmd: java
+        execute_flags: -DONLINE_JUDGE=true -Xlog:disable -Xmx2g -XX:ReservedCodeCacheSize=64m -XX:-UseCompressedClassPointers -Xss256k
+        compile_fn_name: generic_java_compile
+        execute_fn_name: generic_java_execute
+        file_name_fn_or_str_name: java_file_name_suffix
+        timelimit_factor: 3
+        extend_mem_for_vm: true
+        extend_mem_flag_name: Xmx
+
+    Java 7:
+        compile_cmd: javac
+        compile_flags: -target 1.7 -nowarn -cp ".;*"
+        execute_cmd: java
+        execute_flags: -DONLINE_JUDGE=true -Xlog:disable -Xmx2g -XX:ReservedCodeCacheSize=64m -XX:-UseCompressedClassPointers -Xss256k
+        compile_fn_name: generic_java_compile
+        execute_fn_name: generic_java_execute
+        file_name_fn_or_str_name: java_file_name_suffix
+        timelimit_factor: 3
+        extend_mem_for_vm: true
+        extend_mem_flag_name: Xmx
+
+    Java 1.5:
+        compile_cmd: javac
+        compile_flags: -target 1.5 -nowarn -cp ".;*"
+        execute_cmd: java
+        execute_flags: -DONLINE_JUDGE=true -Xlog:disable -Xmx2g -XX:ReservedCodeCacheSize=64m -XX:-UseCompressedClassPointers -Xss256k
+        compile_fn_name: generic_java_compile
+        execute_fn_name: generic_java_execute
+        file_name_fn_or_str_name: java_file_name_suffix
+        timelimit_factor: 3
+        extend_mem_for_vm: true
+        extend_mem_flag_name: Xmx
+
+    Java 8:
+        compile_cmd: javac
+        compile_flags: -nowarn -cp ".;*"
+        execute_cmd: java
+        execute_flags: -DONLINE_JUDGE=true -Xlog:disable -Xmx2g -XX:ReservedCodeCacheSize=64m -XX:-UseCompressedClassPointers -Xss256k
+        compile_fn_name: generic_java_compile
+        execute_fn_name: generic_java_execute
+        file_name_fn_or_str_name: java_file_name_suffix
+        timelimit_factor: 3
+        extend_mem_for_vm: true
+        extend_mem_flag_name: Xmx
+
+    Java 11:
+        compile_cmd: javac
+        compile_flags: -nowarn -cp ".;*"
+        execute_cmd: java
+        execute_flags: -DONLINE_JUDGE=true -Xlog:disable -Xmx2g -XX:ReservedCodeCacheSize=64m -XX:-UseCompressedClassPointers -Xss256k
+        compile_fn_name: generic_java_compile
+        execute_fn_name: generic_java_execute
+        file_name_fn_or_str_name: java_file_name_suffix
+        timelimit_factor: 3
+        extend_mem_for_vm: true
+        extend_mem_flag_name: Xmx
+
+    Java 17:
+        compile_cmd: javac
+        compile_flags: -nowarn -cp ".;*"
+        execute_cmd: java
+        execute_flags: -DONLINE_JUDGE=true -Xlog:disable -Xmx2g -XX:ReservedCodeCacheSize=64m -XX:-UseCompressedClassPointers -Xss256k
+        compile_fn_name: generic_java_compile
+        execute_fn_name: generic_java_execute
+        file_name_fn_or_str_name: java_file_name_suffix
+        timelimit_factor: 3
+        extend_mem_for_vm: true
+        extend_mem_flag_name: Xmx
+
+    PHP:
+        compile_cmd: php
+        compile_flags: -l
+        execute_cmd: php
+        compile_fn_name: generic_interpreted_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.php
+        timelimit_factor: 3
+
+    PHP 8.1:
+        compile_cmd: php
+        compile_flags: -l
+        execute_cmd: php
+        compile_fn_name: generic_interpreted_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.php
+        timelimit_factor: 3
+
+    Go:
+        compile_cmd: go build
+        compile_fn_name: generic_rust_go_compile
+        execute_fn_name: generic_binary_execute
+        file_name_fn_or_str_name: test.go
+
+    Ruby:
+        compile_cmd: ruby
+        compile_flags: -c
+        execute_cmd: ruby
+        compile_fn_name: generic_interpreted_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.rb
+        timelimit_factor: 3
+
+    Ruby 3:
+        compile_cmd: ruby
+        compile_flags: -c
+        execute_cmd: ruby
+        compile_fn_name: generic_interpreted_compile
+        execute_fn_name: generic_interpreted_execute
+        file_name_fn_or_str_name: test.rb
+        timelimit_factor: 3
+
+    Kotlin:
+        compile_cmd: kotlinc
+        compile_flags: -nowarn -language-version 1.7 -include-runtime 
+        execute_cmd: java
+        execute_flags: -DONLINE_JUDGE=true -Xlog:disable -Xmx2g -XX:ReservedCodeCacheSize=64m -XX:-UseCompressedClassPointers -Xss256k -jar 
+        sanitize_fn_name: sanitize_kotlin
+        compile_fn_name: generic_kt_compile
+        execute_fn_name: generic_kotlin_execute
+        file_name_fn_or_str_name: test.kt
+        timelimit_factor: 3
+        extend_mem_for_vm: true
+        extend_mem_flag_name: Xmx
+
+    Kotlin 1.4:
+        compile_cmd: kotlinc
+        compile_flags: -nowarn -language-version 1.4 -include-runtime 
+        execute_cmd: java
+        execute_flags: -DONLINE_JUDGE=true -Xlog:disable -Xmx2g -XX:ReservedCodeCacheSize=64m -XX:-UseCompressedClassPointers -Xss256k -jar 
+        sanitize_fn_name: sanitize_kotlin
+        compile_fn_name: generic_kt_compile
+        execute_fn_name: generic_kotlin_execute
+        file_name_fn_or_str_name: test.kt
+        timelimit_factor: 3
+        extend_mem_for_vm: true
+        extend_mem_flag_name: Xmx
+
+    Kotlin 1.5:
+        compile_cmd: kotlinc
+        compile_flags: -nowarn -language-version 1.5 -include-runtime 
+        execute_cmd: java
+        execute_flags: -DONLINE_JUDGE=true -Xlog:disable -Xmx2g -XX:ReservedCodeCacheSize=64m -XX:-UseCompressedClassPointers -Xss256k -jar
+        sanitize_fn_name: sanitize_kotlin
+        compile_fn_name: generic_kt_compile
+        execute_fn_name: generic_kotlin_execute
+        file_name_fn_or_str_name: test.kt
+        timelimit_factor: 3
+        extend_mem_for_vm: true
+        extend_mem_flag_name: Xmx
+
+    Kotlin 1.6:
+        compile_cmd: kotlinc
+        compile_flags: -nowarn -language-version 1.6 -include-runtime 
+        execute_cmd: java
+        execute_flags: -DONLINE_JUDGE=true -Xlog:disable -Xmx2g -XX:ReservedCodeCacheSize=64m -XX:-UseCompressedClassPointers -Xss256k -jar 
+        sanitize_fn_name: sanitize_kotlin
+        compile_fn_name: generic_kt_compile
+        execute_fn_name: generic_kotlin_execute
+        file_name_fn_or_str_name: test.kt
+        timelimit_factor: 3
+        extend_mem_for_vm: true
+        extend_mem_flag_name: Xmx
+
+    Kotlin 1.7:
+        compile_cmd: kotlinc
+        compile_flags: -nowarn -language-version 1.7 -include-runtime 
+        execute_cmd: java
+        execute_flags: -DONLINE_JUDGE=true -Xlog:disable -Xmx2g -XX:ReservedCodeCacheSize=64m -XX:-UseCompressedClassPointers -Xss256k -jar 
+        sanitize_fn_name: sanitize_kotlin
+        compile_fn_name: generic_kt_compile
+        execute_fn_name: generic_kotlin_execute
+        file_name_fn_or_str_name: test.kt
+        timelimit_factor: 3
+        extend_mem_for_vm: true
+        extend_mem_flag_name: Xmx

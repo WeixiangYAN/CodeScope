@@ -1,0 +1,183 @@
+GNU C:
+    nofile: 0
+
+GNU C11:
+    nofile: 0
+
+GNU C++:
+    nofile: 0
+
+GNU C++0x:
+    nofile: 0
+
+GNU C++11:
+    nofile: 0
+
+GNU C++14:
+    nofile: 0
+
+GNU C++17:
+    nofile: 0
+
+GNU C++17 (64):
+    nofile: 0
+
+GNU C++20 (64):
+    nofile: 0
+
+GNU C++20:
+    nofile: 0
+
+GNU C++17 Diagnostics:
+    nofile: 0
+
+Clang++17 Diagnostics:
+    nofile: 0
+
+Clang++17:
+    nofile: 0
+
+Clang++20 Diagnostics:
+    nofile: 0
+
+Clang++20:
+    nofile: 0
+
+Clang++14:
+    nofile: 0
+
+Clang++11:
+    nofile: 0
+
+MS C++:
+    nofile: 0
+
+MS C++ 2017:
+    nofile: 0
+
+MS C#:
+    nofile: 4
+    nproc: 4
+    fsize: 1073741824
+
+C# 10:
+    nofile: 4
+    nproc: 4
+    fsize: 1073741824
+
+C# 8:
+    nofile: 4
+    nproc: 4
+    fsize: 1073741824
+
+Mono C#:
+    nofile: 4
+    nproc: 4
+    fsize: 1073741824
+
+.NET Core C#:
+    nofile: 4
+    nproc: 4
+    fsize: 1073741824
+
+PyPy 2:
+    nofile: 4
+
+Python 2:
+    nofile: 4
+
+PyPy 3:
+    nofile: 4
+
+PyPy 3-64:
+    nofile: 4
+
+Python 3:
+    nofile: 4
+
+Python 3 + libs:
+    nofile: 4
+
+JavaScript:
+    nofile: 25
+    nproc: 25
+
+Node js:
+    nofile: 25
+    nproc: 25
+
+Node.js:
+    nofile: 25
+    nproc: 25
+
+Rust:
+    nofile: 4
+
+Rust 2021:
+    nofile: 4
+
+Rust 2018:
+    nofile: 4
+
+Rust 2015:
+    nofile: 4
+
+Java 6:
+    nofile: 25
+    nproc: 23
+
+Java 7:
+    nofile: 25
+    nproc: 23
+
+Java 1.5:
+    nofile: 25
+    nproc: 23
+
+Java 8:
+    nofile: 25
+    nproc: 23
+
+Java 11:
+    nofile: 25
+    nproc: 23
+
+Java 17:
+    nofile: 25
+    nproc: 23
+
+PHP:
+    nofile: 4
+
+PHP 8.1:
+    nofile: 4
+
+Go:
+    nofile: 0
+    nproc: 7
+
+Ruby:
+    nofile: 10
+
+Ruby 3:
+    nofile: 10
+
+Kotlin:
+    nofile: 25
+    nproc: 23
+
+Kotlin 1.4:
+    nofile: 25
+    nproc: 23
+
+Kotlin 1.5:
+    nofile: 25
+    nproc: 23
+
+Kotlin 1.6:
+    nofile: 25
+    nproc: 23
+
+Kotlin 1.7:
+    nofile: 25
+    nproc: 23
