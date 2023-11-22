@@ -1,0 +1,14 @@
+pandas==2.0.0
+tqdm==4.66.1
+scipy==1.10.1
+backoff==2.2.1
+tenacity==8.2.3
+openai==0.27.10
+tiktoken==0.4.0
+datasets==2.14.7
+protobuf==4.24.2
+accelerate==0.22.0
+transformers==4.33.0
+bitsandbytes==0.41.1
+sentencepiece==0.1.99
+google-generativeai==0.1.0
