@@ -89,8 +89,8 @@ python run_gpt.py
     --model model_specific_version
     --data_load_name program_synthesis_data.jsonl
     --candidate_num 5
-    --result_save_name program_synthesis_run_{model_name}}.jsonl
-    --log_file_name program_synthesis_run_\{model_name\}.log
+    --result_save_name program_synthesis_run_{model_name}.jsonl
+    --log_file_name program_synthesis_run_{model_name}.log
 ```
 
 
