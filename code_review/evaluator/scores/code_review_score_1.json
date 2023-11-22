@@ -1,0 +1,93 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "model": "Code LLaMA",
+      "accuracy": "52.67",
+      "precision": "55.39",
+      "recall": "52.67",
+      "f1": "45.82",
+      "bleu": "0.95",
+      "rouge": "8.41",
+      "bertscore": "82.5",
+      "overall": "42.63"
+    },
+    {
+      "model": "Vicuna",
+      "accuracy": "52.22",
+      "precision": "53.6",
+      "recall": "52.22",
+      "f1": "47.4",
+      "bleu": "0.77",
+      "rouge": "6.98",
+      "bertscore": "82.56",
+      "overall": "42.25"
+    },
+    {
+      "model": "LLaMA 2",
+      "accuracy": "51.22",
+      "precision": "52.02",
+      "recall": "51.22",
+      "f1": "46.06",
+      "bleu": "0.73",
+      "rouge": "7.44",
+      "bertscore": "83.17",
+      "overall": "41.69"
+    },
+    {
+      "model": "GPT-4",
+      "accuracy": "49.56",
+      "precision": "49.51",
+      "recall": "49.56",
+      "f1": "48.34",
+      "bleu": "1.02",
+      "rouge": "8.39",
+      "bertscore": "83.63",
+      "overall": "41.43"
+    },
+    {
+      "model": "PaLM 2",
+      "accuracy": "47.56",
+      "precision": "48.59",
+      "recall": "47.56",
+      "f1": "47.97",
+      "bleu": "1.62",
+      "rouge": "8.99",
+      "bertscore": "83.54",
+      "overall": "40.83"
+    },
+    {
+      "model": "GPT-3.5",
+      "accuracy": "49.89",
+      "precision": "49.52",
+      "recall": "49.89",
+      "f1": "37.93",
+      "bleu": "1.37",
+      "rouge": "8.35",
+      "bertscore": "84.52",
+      "overall": "40.21"
+    },
+    {
+      "model": "StarCoder",
+      "accuracy": "47.22",
+      "precision": "45.99",
+      "recall": "47.22",
+      "f1": "42.5",
+      "bleu": "0.46",
+      "rouge": "7.78",
+      "bertscore": "83.7",
+      "overall": "39.27"
+    },
+    {
+      "model": "WizardCoder",
+      "accuracy": "49.56",
+      "precision": "49.42",
+      "recall": "49.56",
+      "f1": "36.68",
+      "bleu": "0.36",
+      "rouge": "6.63",
+      "bertscore": "81.77",
+      "overall": "39.14"
+    }
+  ]
+}
