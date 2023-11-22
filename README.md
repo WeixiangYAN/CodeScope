@@ -22,7 +22,20 @@
 
 
 ## Code
-🚧 Working in progress, coming soon...
+CodeScope evaluates the comprehensive ability of LLMs in **code understanding** and **code generation** from **eight** coding tasks.
+
+### Code Understanding
+1. [Code Summarization](./code_summarization)
+2. [Code Smell](./code_smell)
+3. [Code Review](./code_review)
+4. [Automated Testing](./automated_testing)
+
+### Code Generation
+5. [Program Synthesis](./program_synthesis)
+6. [Code Translation](./code_translation)
+7. [Code Repair](./code_repair)
+8. [Code Optimization](./code_optimization)
+
 
 
 ## Citation
