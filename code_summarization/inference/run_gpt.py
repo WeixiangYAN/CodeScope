@@ -27,8 +27,6 @@ def parse_arguments():
 
     return args
 
-
-# References: https://github.com/openai/openai-cookbook/blob/main/examples/How_to_handle_rate_limits.ipynb
 @backoff.on_exception(backoff.expo, openai.error.RateLimitError)
 def generate_text(model, prompt, temperature, candidate_num):
     assert temperature > 0 if candidate_num > 1 else True
@@ -45,7 +43,6 @@ def generate_text(model, prompt, temperature, candidate_num):
     return results
 
 
-# References: https://github.com/openai/openai-cookbook/blob/5783656852d507c335955d14875ebc9902f628ef/examples/How_to_count_tokens_with_tiktoken.ipynb
 @backoff.on_exception(backoff.expo, openai.error.RateLimitError)
 def count_message_tokens(content, model, type):
     try:
@@ -138,7 +135,6 @@ if __name__ == '__main__':
     logger.addHandler(file_handler)
     logger.addHandler(stream_handler)
 
-    # References: https://platform.openai.com/docs/api-reference/authentication
     openai.api_key = args.api_key
     model_max_tokens = {
         'gpt-3.5-turbo': 4097,

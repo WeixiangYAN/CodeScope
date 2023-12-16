@@ -67,4 +67,4 @@ An example of running the Code LLaMA model is:
 ## Evaluation
 
 1. `cd ../evaluator` 
-2. Execute the command `python score_code_summarization.py --llm_infer_result infer_file`, substituting `infer_file` with the name of the LLM's inference file (for example, `code_summ_infer_palm.jsonl`). This will generate scores for the targeted LLM's inference results, which will be saved in the directory `evaluator/summ_scores/`.
+2. Execute the command `python eval_code_summarization.py --llm_infer_result infer_file`, substituting 'infer_file' with the name of the llm's inference file (for example, 'code_summ_infer_palm.jsonl'). This will generate scores for the targeted llm's inference results, which will be saved in the directory `evaluator/summ_scores/`.

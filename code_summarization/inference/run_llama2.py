@@ -127,8 +127,6 @@ if __name__ == '__main__':
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print('Device:', device)
 
-    # References: https://huggingface.co/blog/llama2
-    # References: https://colab.research.google.com/drive/1X1z9Q6domMKl2CnEM0QGHNwidLfR4dW2?usp=sharing
     tokenizer = AutoTokenizer.from_pretrained(
         args.checkpoint,
         use_fast=True,
