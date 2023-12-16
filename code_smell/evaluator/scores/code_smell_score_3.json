@@ -1,0 +1,101 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "model": "WizardCoder",
+      "java_accuracy": "24.0",
+      "java_precision": "20.64",
+      "java_recall": "24.0",
+      "java_f1": "21.87",
+      "c#_accuracy": "65.0",
+      "c#_precision": "82.55",
+      "c#_recall": "65.0",
+      "c#_f1": "72.44",
+      "overall": "46.94"
+    },
+    {
+      "model": "LLaMA 2",
+      "java_accuracy": "25.0",
+      "java_precision": "33.75",
+      "java_recall": "25.0",
+      "java_f1": "24.57",
+      "c#_accuracy": "41.0",
+      "c#_precision": "64.86",
+      "c#_recall": "41.0",
+      "c#_f1": "50.17",
+      "overall": "38.17"
+    },
+    {
+      "model": "GPT-3.5",
+      "java_accuracy": "32.0",
+      "java_precision": "24.85",
+      "java_recall": "32.0",
+      "java_f1": "25.11",
+      "c#_accuracy": "30.0",
+      "c#_precision": "86.25",
+      "c#_recall": "30.0",
+      "c#_f1": "34.18",
+      "overall": "36.8"
+    },
+    {
+      "model": "Vicuna",
+      "java_accuracy": "15.0",
+      "java_precision": "19.27",
+      "java_recall": "15.0",
+      "java_f1": "14.07",
+      "c#_accuracy": "47.0",
+      "c#_precision": "75.27",
+      "c#_recall": "47.0",
+      "c#_f1": "57.04",
+      "overall": "36.21"
+    },
+    {
+      "model": "Code LLaMA",
+      "java_accuracy": "21.0",
+      "java_precision": "33.37",
+      "java_recall": "21.0",
+      "java_f1": "25.38",
+      "c#_accuracy": "35.0",
+      "c#_precision": "78.3",
+      "c#_recall": "35.0",
+      "c#_f1": "38.22",
+      "overall": "35.91"
+    },
+    {
+      "model": "PaLM 2",
+      "java_accuracy": "30.0",
+      "java_precision": "38.31",
+      "java_recall": "30.0",
+      "java_f1": "26.29",
+      "c#_accuracy": "41.0",
+      "c#_precision": "32.03",
+      "c#_recall": "41.0",
+      "c#_f1": "35.96",
+      "overall": "34.32"
+    },
+    {
+      "model": "GPT-4",
+      "java_accuracy": "27.0",
+      "java_precision": "25.29",
+      "java_recall": "27.0",
+      "java_f1": "22.0",
+      "c#_accuracy": "34.0",
+      "c#_precision": "57.16",
+      "c#_recall": "34.0",
+      "c#_f1": "41.83",
+      "overall": "33.53"
+    },
+    {
+      "model": "StarCoder",
+      "java_accuracy": "1.0",
+      "java_precision": "6.25",
+      "java_recall": "1.0",
+      "java_f1": "1.72",
+      "c#_accuracy": "49.0",
+      "c#_precision": "74.74",
+      "c#_recall": "49.0",
+      "c#_f1": "34.61",
+      "overall": "27.16"
+    }
+  ]
+}

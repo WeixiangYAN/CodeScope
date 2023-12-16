@@ -1,0 +1,61 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "model": "Code LLaMA",
+      "short": "39.34",
+      "medium": "44.7",
+      "long": "43.66",
+      "overall": "42.57"
+    },
+    {
+      "model": "GPT-4",
+      "short": "44.08",
+      "medium": "39.93",
+      "long": "41.69",
+      "overall": "41.9"
+    },
+    {
+      "model": "LLaMA 2",
+      "short": "45.74",
+      "medium": "40.05",
+      "long": "39.14",
+      "overall": "41.64"
+    },
+    {
+      "model": "PaLM 2",
+      "short": "41.56",
+      "medium": "42.13",
+      "long": "39.79",
+      "overall": "41.16"
+    },
+    {
+      "model": "Vicuna",
+      "short": "43.92",
+      "medium": "38.7",
+      "long": "40.43",
+      "overall": "41.02"
+    },
+    {
+      "model": "GPT-3.5",
+      "short": "45.75",
+      "medium": "37.88",
+      "long": "34.56",
+      "overall": "39.4"
+    },
+    {
+      "model": "WizardCoder",
+      "short": "32.68",
+      "medium": "41.05",
+      "long": "43.36",
+      "overall": "39.03"
+    },
+    {
+      "model": "StarCoder",
+      "short": "45.34",
+      "medium": "39.02",
+      "long": "32.2",
+      "overall": "38.85"
+    }
+  ]
+}
