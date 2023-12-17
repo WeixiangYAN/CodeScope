@@ -4,7 +4,7 @@
 
 <div align="center">
     <a href="https://haitianliu22.github.io/code-scope-benchmark/"><img src="./images/leaderboard.png">Leaderboard</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="https://arxiv.org/pdf/2311.08588.pdf">📄 Paper</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="https://haitianliu22.github.io/code-scope-benchmark/static/file/CodeScope.pdf">📄 Paper</a> &nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="https://huggingface.co/datasets/WeixiangYan/CodeScope">🤗 Access from HuggingFace datasets</a> &nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="https://drive.google.com/file/d/1TdwR_RKjgtHhAdDO2Gn2q-fZcBcmmy-j/view?usp=sharing"><img src="./images/google_drive.png"> Access from Google Drive datasets</a>
 </div>
