@@ -6,7 +6,7 @@
     <a href="https://haitianliu22.github.io/code-scope-benchmark/"><img src="./images/leaderboard.png">Leaderboard</a> &nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="https://haitianliu22.github.io/code-scope-benchmark/static/file/CodeScope.pdf">📄 Paper</a> &nbsp;&nbsp;|&nbsp;&nbsp;
     <a href="https://huggingface.co/datasets/WeixiangYan/CodeScope">🤗 Access from HuggingFace datasets</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-    <a href="https://drive.google.com/file/d/1TdwR_RKjgtHhAdDO2Gn2q-fZcBcmmy-j/view?usp=sharing"><img src="./images/google_drive.png"> Access from Google Drive datasets</a>
+    <a href="https://drive.google.com/file/d/1kg3KICQZekpaQyCAGt_qTPR6ag5MBT_y/view?usp=sharing"><img src="./images/google_drive.png"> Access from Google Drive datasets</a>
 </div>
 
 <br>
@@ -18,7 +18,7 @@
 
 
 ## Datasets
-🤗[Hugging Face](https://huggingface.co/datasets/WeixiangYan/CodeScope) or  <img src="./images/google_drive.png">[Google Drive](https://drive.google.com/file/d/1TdwR_RKjgtHhAdDO2Gn2q-fZcBcmmy-j/view?usp=sharing) or [Github Data](https://github.com/WeixiangYAN/CodeScope/tree/main/data)
+🤗[Hugging Face](https://huggingface.co/datasets/WeixiangYan/CodeScope) or  <img src="./images/google_drive.png">[Google Drive](https://drive.google.com/file/d/1kg3KICQZekpaQyCAGt_qTPR6ag5MBT_y/view?usp=sharing) or [Github Data](https://github.com/WeixiangYAN/CodeScope/tree/main/data)
 
 
 ## Code
