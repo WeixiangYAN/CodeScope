@@ -13,7 +13,9 @@
 
 **CodeScope**, an execution-based, multilingual, multi-task, multi-dimensional evaluation benchmark for comprehensively gauging LLM capabilities on coding tasks. CodeScope covers **43 programming languages** and **8 coding tasks**. It evaluates the coding performance of LLMs from three dimensions (perspectives): **difficulty**, **efficiency**, and **length**.
 
-
+## 🌈 Update
+* **[2024.05.15]** CodeScope was accepted into the **ACL 2024 Main Conference**, thanking the academic community for its recognition.
+* **[2023.11.15]** 🎉🎉🎉 CodeScope is published！🎉🎉🎉
 
 
 
